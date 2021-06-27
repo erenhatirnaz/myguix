@@ -24,7 +24,7 @@
       (parameterize
           ((%patch-path
             (map (lambda (directory)
-                   (string-append directory "myguix/packages/patches"))
+                   (string-append directory "/myguix/packages/patches"))
                  %load-path)))
         (search-patches "font-terminus-ll2.patch"
                         "font-terminus-td1.patch")))))))
