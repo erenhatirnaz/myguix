@@ -14,5 +14,5 @@
    (name "stumpwm-terminus")
    (inputs
     `(("font-terminus-ll2-td1" ,font-terminus-ll2-td1)
-      ,@(package-inputs emacs)))
+      ,@(package-inputs stumpwm)))
    (synopsis "StumpWM with Terminus font")))
