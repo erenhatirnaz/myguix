@@ -5,7 +5,8 @@
   #:use-module (guix download)
   #:use-module (guix packages)
   #:use-module (gnu packages)
-  #:use-module (gnu packages wm))
+  #:use-module (gnu packages wm)
+  #:use-module (myguix packages fonts))
 
 (define-public stumpwm-terminus
   (package
